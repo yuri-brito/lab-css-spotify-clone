@@ -6,3 +6,98 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+body{
+    margin-inline:0;
+    font-family:"Noto Sans";
+}
+#cabeca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 15px;
+
+}
+ul{display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+li{
+    margin-inline: 10px;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+#logo-verde{
+    width: 125px;
+    height: 40px;
+}
+#artigo-1{
+    background-image: url("../images/landing.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    color:white;
+    text-align: center;
+    font-family:"Noto Sans";
+    
+}
+
+#artigo-1>h2{
+    font-size: 50px;
+    padding-top: 15%;
+    margin-top: 0;
+    margin-bottom:20px;
+}
+#artigo-1>p{
+    
+    margin:0px;
+    font-weight:lighter;
+}
+#on{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#whats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 80px;
+}
+.icon{
+    width: 100px;
+    height: 75px;
+}
+.green{
+    color: #00B172 ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div-icon{
+    text-align: center;
+    width: 280px;
+}
+.normal{
+    margin-inline: 50px;
+}
+footer{
+    background-color: rgb(26, 177, 106, 255);
+    margin-inline: 10px;
+    color:white;
+}
+
+#footer>p{
+    border-bottom: 2px solid white;
+    width:27%;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 5%;
+    margin-left: 5%;
+
+    font-size: 20px;
+}
