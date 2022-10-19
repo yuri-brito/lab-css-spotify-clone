@@ -91,13 +91,41 @@ footer{
     color:white;
 }
 
-#footer>p{
-    border-bottom: 2px solid white;
-    width:27%;
-    text-align: center;
+#div-footer>p{
+    border-bottom: 3px solid white;
     padding-bottom: 6px;
     padding-top: 5%;
     margin-left: 5%;
 
     font-size: 20px;
+}
+#div-footer{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    
+
+}
+.div-footer{
+    width:80%
+}
+
+#div-lateral{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 5%;
+    margin-bottom: 5%;
+
+}
+#branco{
+    width:100px;
+    margin-right: 80%;
+}
+#spotfy{
+    width:300px;
+    padding-right: 80%;
+    padding-top: 30%;
+    padding-bottom: 30%;
 }
